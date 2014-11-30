@@ -1,3 +1,7 @@
+<a href="https://www.youtube.com/watch?v=_KpyM0ge1HE" target="_blank">Youtube Video</a>
+
+<a href="http://tangochen.com/blog/?p=1972" target="_blank">Blog Post</a>
+
 Steps to track tip of tongue:
 ===================
 
@@ -10,16 +14,8 @@ Get the relative position according to the mouth area to know the tongue's direc
 Show the tracking results when the mouth is open.
 
 
-# Public Variables
+# Public Variables:
 
 **float TongueX;**  Value 0 to 1, represents X-axis of tongue's tip in the mouth. The smaller it is, the closer it is to the left.
 
 **float TongueY;**  Value 0 to 1, represents Y-axis of tongue's tip in the mouth. The smaller it is, the closer it is to the top.
-
-**string Direction**
-¨I   ¡ü   ¨J
-¡û  X/o   ¡ú
-¨L   ¡ý   ¨K
-
-**X** represents that the mouth may be closed.
-**o** represents that the tip of tongue is in the center.
